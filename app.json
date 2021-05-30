@@ -14,11 +14,32 @@
  "success_url": "https://t.me/TeleBotHelp/13",
  "stack": "container",
  "env": {
- },
- "addons": [{
-  "plan": "heroku-postgresql",
-  "options": {
-   "version": "12"
-  }
- }]
-}
+    "description": "Setting this to ANYTHING will enable heroku.",
+   "value": "ANYTHING"
+  },
+ "API_ID":{
+  "description": "get your api id from my.telegram.org"
+  "value": ""
+  "required": "true"
+  },
+ "API_HASH":{
+  "description": "get your api hash from my.telegram.org"
+  "value": ""
+  "required": "true"
+  },
+ "DATABASE_URL":{
+  "discription": ""
+  "value": ""
+  },
+ "LOG_CHANNEL_ID":{
+  "discription": "add @hinata_X_bot and type /id"
+  "value": ""
+  },
+ "LOAD_UNOFFICIAL_PLUGIN":{
+  "discription": ""
+  "value": ""
+  
+
+ 
+ 
+
